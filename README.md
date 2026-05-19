@@ -20,14 +20,21 @@ My work lives at the intersection of LLM engineering, workflow automation, and f
 
 ---
 
-## Current work
+## 🔨 What I'm Building
 
-| Project | Description | Stack |
-|---|---|---|
-| **Vox Platform CRM** | Multi-tenant SaaS CRM WhatsApp inbox, AI insights, pipeline, campaigns, billing | Next.js 14 · Supabase · TypeScript · Vercel |
-| **AI Agent — SDR** | Conversational sales agent on WhatsApp — qualifies leads, handles objections, books meetings via Calendar API | n8n · Claude API · META API |
-| **DWG Budget Intelligence** | Receives architectural DWG files via WhatsApp, analyzes with Autodesk APS + Claude Vision, returns structured budget data | APS · Claude · Next.js API |
-| **Email Campaign Engine** | Multi-tenant transactional + campaign email system with per-client Resend isolation and 100,000+ contact base | Resend · Supabase · Next.js |
+> AI-native products and systems for sales, operations, and content — from autonomous WhatsApp agents to multi-tenant SaaS platforms.
+
+| Project | Description | Stack | Status |
+|:---|:---|:---|:---:|
+| **[Vox Platform CRM](https://crm-vox.vercel.app)** | Multi-tenant SaaS — WhatsApp inbox, AI deal scoring, pipeline management, campaign engine, and billing. Handles 700k+ contacts across isolated tenants with row-level security. | `Next.js 14` `Supabase` `TypeScript` `Vercel` | 🟡 |
+| **AI SDR Agent** | Conversational WhatsApp agent that qualifies leads, handles objections, and books calendar meetings autonomously — 24/7, no human-in-the-loop. | `n8n` `Claude API` `META API` `Evolution API` | 🟢 |
+| **DWG Budget Intelligence** | Receives architectural floor plans (.dwg) via WhatsApp, parses geometry with Autodesk APS + Claude Vision, and returns fully itemized budget reports — zero manual input. | `Autodesk APS` `Claude Vision` `ezdxf` `Python` | 🔨 |
+| **Email Campaign Engine** | Per-client transactional + broadcast email system with isolated Resend instances, audience segmentation, and 100,000+ contact base. | `Resend` `Supabase` `Next.js` `PostgreSQL` | 🟢 |
+| **n8n Automation Hub** | 29 production workflows connecting WhatsApp, CRM, Instagram, email, video publishing, lead nurturing, and cross-client reporting. | `n8n` `Evolution API` `Supabase` `REST` | 🟢 |
+| **Short-Form Video Pipeline** | Automated production: script → captions → cuts → platform publish. High-retention format for personal brand and client content at scale. | `Remotion` `Python` `Whisper` `FFmpeg` | 🟢 |
+| **RAG Knowledge Engine** | pgvector retrieval layer feeding structured domain knowledge into WhatsApp agents — product specs, pricing, and objection handling in real time. | `Supabase pgvector` `n8n` `Claude API` | 🔨 |
+
+> 🟢 Live · 🟡 In progress · 🔨 Building
 
 ---
 
